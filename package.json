@@ -4,7 +4,7 @@
   "description": "Twitch bot for myself",
   "main": "index.js",
   "scripts": {
-    "restart": "node server.js",
+    "restart": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Chris is Awesome",
