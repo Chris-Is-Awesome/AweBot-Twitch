@@ -1,8 +1,10 @@
 require('dotenv').config();
 
+// Imports
 const tmi = require('tmi.js');
 const commands = require('./commands.js');
 
+// Client setup
 const client = new tmi.Client({
 	connection: { reconnect: true },
 	// Bot info
