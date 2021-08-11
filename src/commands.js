@@ -28,6 +28,7 @@ module.exports = {
 				"[Does a backflip...]",
 				"[Runs in circles for hours before tackling you...]",
 				"[Closes barn doors so no other goats can get in...]",
+				"[Whoops you...]"
 			];
 
 			client.say(channel, tags['display-name'] + " " + failureResults[Math.floor(Math.random() * failureResults.length)]);
