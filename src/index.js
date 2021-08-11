@@ -35,6 +35,8 @@ client.on('message', (channel, tags, message, self) => {
 		case "whoop":
 			commands.Whoop(client, channel, tags);
 			break;
+		case "bff":
+			commands.Bff(client, channel, tags);
 	}
 
 });
