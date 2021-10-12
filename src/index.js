@@ -35,6 +35,7 @@ client.on('message', (channel, tags, message, self) => {
 	console.log(`${tags['display-name']} is attempting to run command ${command} with ${args.length} argument(s)`);
 
 	let output = "";
+	let reply = true;
 
 	// Execute valid commands
 	switch (command) {
@@ -53,9 +54,15 @@ client.on('message', (channel, tags, message, self) => {
 			break;
 		case "trivia":
 			output = commands.Trivia();
+			reply = false;
 			break;
 	}
 
-	client.say(channel, tags['display-name'] + " " + output);
+	if (reply) {
+		client.say(channel, tags['display-name'] + " " + output);
+	}
+	else {
+		client.say(output);
+	}
 
 });
