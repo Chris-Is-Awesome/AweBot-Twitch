@@ -62,7 +62,7 @@ client.on('message', (channel, tags, message, self) => {
 		client.say(channel, tags['display-name'] + " " + output);
 	}
 	else {
-		client.say(output);
+		client.say(channel, output);
 	}
 
 });
