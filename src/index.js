@@ -17,6 +17,10 @@ const client = new tmi.Client({
 
 client.connect(); // Connect to Twitch
 
+client.on('raided', (channel, username, viewers) => {
+	client.say(channel, "[Test] A raid happened! Woah!!! Now everyone, get in the barn!");
+})
+
 // Fires when a message is sent to the channel
 client.on('message', (channel, tags, message, self) => {
 
@@ -30,13 +34,28 @@ client.on('message', (channel, tags, message, self) => {
 
 	console.log(`${tags['display-name']} is attempting to run command ${command} with ${args.length} argument(s)`);
 
+	let output = "";
+
 	// Execute valid commands
 	switch (command) {
 		case "whoop":
-			commands.Whoop(client, channel, tags);
+			output = commands.Whoop();
 			break;
 		case "bff":
-			commands.Bff(client, channel, tags);
+			output = commands.Bff();
+			break;
+		case "randnum":
+			output = commands.PickANumber(args);
+			break;
+		case "coinflip":
+		case "flipcoin":
+			output = commands.FlipCoin();
+			break;
+		case "trivia":
+			output = commands.Trivia();
+			break;
 	}
+
+	client.say(channel, tags['display-name'] + " " + output);
 
 });
