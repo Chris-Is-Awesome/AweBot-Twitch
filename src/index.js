@@ -56,6 +56,8 @@ client.on('message', (channel, tags, message, self) => {
 			output = commands.Trivia();
 			reply = false;
 			break;
+		default:
+			return;
 	}
 
 	if (reply) {
