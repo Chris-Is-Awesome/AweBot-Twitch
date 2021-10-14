@@ -242,6 +242,7 @@
 				"there are 3 scrapped or replaced status effects left in the game's assets: Courage, Curse and Fortune. They did not get far enough in development to be worthy of a unique texture, so were likely scrapped early on.",
 				"the scrapped Courage effect prevents any negative status effect from afflicting Ittle for 60 seconds. This  was possibly replaced with Tome.",
 				"the scrapped Curse effect prevents all drops from enemies for 10 seconds. The droptable still advances for the drops you don't get, so you do miss out on drops.",
+				"the song named 'Meteor' is inspired by the 'Kraid's Lair' theme in the original Metroid. It directly referrences Metroid in the filename.",
 				"the scrapped Fortune effect forces all enemies to leave a drop when killed. Lasts for 60 seconds. This was possibly replaced with Hearty or the Sunny Day weather event.",
 				"there are level IV variants of some of Ittle's weapons, including Force Wand, Dynamite, and Ice Ring. Level IV Force Wand and Dynamite have unique effects associated with them.",
 				"level IV Force Wand is the strongest (DPS) weapon in the game, dealing a total of 69 (nice) base damage. The next strongest (DPS) weapon is Ice Ring IV.",
@@ -273,7 +274,16 @@
 				"Lockpicks are internally named 'MasterKeys'",
 				"the snowboarding minigame is a buggy mess, having 3 unique softlocks involved with it as well as a potential lead to future 'wrong warping' tech for speedrunning. The mole can also just, not spawn, and trees and ramps can frequently overlap. You can also break the duck's animation when tricking.",
 				"there is an unused green heart pickup that would have restored 3 hearts",
-			]
+			],
+			"the Metroid series": [
+				"Samus was originally going to be able to crawl through gaps, but worried about the number of sprites it would require on the limited NES cartridge, Nintendo went with a simpler 'morph ball' sprite",
+				"Samus was alluded to be either a robot or a male bounty hunter in the original NEStroid manual. Players would only find out about her true identity by beating the game in a short time.",
+				"Gunpei Yokoi, the producer of several Metroid games, was also the designer of the Game Boy and invented the D-Pad",
+				"the four 'big bosses' of Super Metroid can be beaten in any order, and there are actually speedruns to beat them in reverse order.",
+				"most major items in Metroid: Zero Mission give an 'item get' jingle that is based off the same jingle in the original Metroid. However, the Fully Powered Suit has a unique jingle based off the one in Super Metroid, symbolizing how far the series has come since the original release.",
+				"Samus Aran's biological parents are Rodney and Virginia Aran. Rodney died trying to prevent valuable Afloralite (important ship fuel) from falling into the Space Pirate's hands, and Virginia died protecting Samus.",
+				"Despite canonically being made up of and led by various alien species, the Galactic Federation in Metroid has only ever been shown to have human members.",
+			],
 		}
 
 		const keys = Object.keys(triviaData);
