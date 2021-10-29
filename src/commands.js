@@ -256,7 +256,7 @@
 				"you can kill the 2nd phase of the Napping Fly with only Force Wand despite her being immune to any attack other than Dynamite.",
 				"Dark Oglers have an oversight where there is an extra EntityDroppable component on their root, causing them to have double the effect on the droptable despite only dropping 1 item. Chris hates this for hundo as if this wasn't the case, current route would get a useful lightning drop.",
 				"'Avlopp' in Swedish translates to 'sewer' or 'drain'.",
-				"the NPC you meet at the end of Syncope has the internal name of 'DreamRescueNPCOsalig'. 'Osalig' in Swedish translates to 'unsaved'.",
+				"the NPC you meet at the end of Syncope is named 'Osalig' which translates in Swedish to 'unsaved'.",
 				"the sound clip that plays when a Fishbun moves is named 'Fishbun_Pain'. Is Ludo confirming Fishbuns feel pain?!",
 				"Art Exhibit's floor reflection is a camera trick. The second camera is a flipped version of the main one.",
 				"Sunny Day weather event affects item drops from enemies. For 10 seconds, there is an 80% chance to replace any heart drop with a lightning.",
@@ -274,6 +274,9 @@
 				"Lockpicks are internally named 'MasterKeys'",
 				"the snowboarding minigame is a buggy mess, having 3 unique softlocks involved with it as well as a potential lead to future 'wrong warping' tech for speedrunning. The mole can also just, not spawn, and trees and ramps can frequently overlap. You can also break the duck's animation when tricking.",
 				"there is an unused green heart pickup that would have restored 3 hearts",
+				"Syncope is a real word, meaning 'temporary loss of consciousness caused by a fall in blood pressure'.",
+				"Quietus is a real word, meaning 'death or something that causes death, regarded as a release from life'.",
+				"Antigram is a real word, meaning 'an anagram that means the opposite of the original word or phrase (eg. restful is the antigram of fluster)'."
 			],
 			"the Metroid series": [
 				"Samus was originally going to be able to crawl through gaps, but worried about the number of sprites it would require on the limited NES cartridge, Nintendo went with a simpler 'morph ball' sprite",
