@@ -162,7 +162,7 @@
 				"Grimmchild attacks the Hunter when he roars but stops after that.",
 				"the accordian Brumm plays has limbs, implying that it's a dead or live bug.",
 				"the journal entry for Nightmare King Grimm is a poem written by the Seer.",
-				"in Godhome, whenever an arean is completed, the Godseeker looks to the sky during the transition.She will look at the Knight during combat in most situations, however, she looks at the boss instead in the following situations: Hornet's intro, Winged Nosk's intro, Grimm's intro, Purle Vessel's intro and outro, and Soul Master's tapid teleporting during transition to second phase.",
+				"in Godhome, whenever an arena is completed, the Godseeker looks to the sky during the transition. She will look at the Knight during combat in most situations, however, she looks at the boss instead in the following situations: Hornet's intros, Winged Nosk's intro, Grimm's intro, Pure Vessel's intro & outro, and Soul Master's rapid teleporting during transition to second phase.",
 				"Dung Defender has thick fur under his shell.",
 				"while Dung Defender sleeps, he can be heard occasionally muttering Isma's name among other unknown phrases.",
 				"if Elderbug is ignored when first entering Dirtmouth, he calls after the Knight in surprise and, if listened to later, comments on this.",
