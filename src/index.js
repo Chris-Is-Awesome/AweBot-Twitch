@@ -17,8 +17,8 @@ const client = new tmi.Client({
 
 client.connect(); // Connect to Twitch
 
-client.on('raided', (channel, username, viewers) => {
-	client.say(channel, "[Test] A raid happened! Woah!!! Now everyone, get in the barn!");
+client.on('redeem', (channel, username, rewardType) => {
+	client.say(channel, `[TEST] ${username} redeemed ${rewardType}!`);
 })
 
 // Fires when a message is sent to the channel
